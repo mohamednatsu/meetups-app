@@ -1,0 +1,62 @@
+.card {
+    width: 400px;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 10px;
+    border: 1px snow solid;
+    padding: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    /* gap: 100px; */
+}
+
+.image {
+    max-width: 400px;
+}
+.image img{
+    width: 400px;
+    border-radius: 8px;
+    /* height: 120px; */
+}
+
+.text h2 {
+    color: lawngreen;
+    font-size: 18px;
+}
+.text p {
+    color: snow;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.btn button{
+    outline: none;
+    border: none;
+    background-color: lawngreen;
+    padding: 13px 10px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.btn button:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s ease-in;
+}
+
+.btn button:not(:hover) {
+    transform: translateY(0px);
+    transition: all 0.2s ease-in;
+}
